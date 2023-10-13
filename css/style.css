@@ -406,6 +406,11 @@ a:focus {
   text-align: justify;
 }
 
+.tableizer-table{
+  text-align: center;
+  color: #ffffff;
+}
+
 .heading_container.heading_center{
   text-align: justify;
 }

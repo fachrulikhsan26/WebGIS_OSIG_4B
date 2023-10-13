@@ -98,17 +98,52 @@
               Map <span>Visualitation</span>
             </h2>
             <p>
-              Berikut merupakan tampilan WebGIS persebaran Gerai Kopimi di Kelurahan Kramas yang disusun oleh Kelompok 5B Teknik Geodesi pada Mata Kuliah Otomasi Sistem Informasi Geografis yang diampu oleh Bapak Dr. Firman Hadi, S.Si., M.T. Pada WebGIS dibawah ini terdapat lima bagian penting yaitu peta utama, diagram garis yang menggambarkan mengenai modal tiap bulan gerai umkm berdasarkan id_umkm, nama kelompok, dosen pengampu mata kuliah, dan legenda.
+              Berikut merupakan tampilan WebGIS persebaran Gerai Kopimi di Kelurahan Kramas yang disusun oleh Kelompok 4B Teknik Geodesi pada Mata Kuliah Otomasi Sistem Informasi Geografis yang diampu oleh Bapak Dr. Firman Hadi, S.Si., M.T. Pada WebGIS dibawah ini terdapat lima bagian penting yaitu peta utama, diagram garis yang menggambarkan mengenai modal tiap bulan gerai umkm berdasarkan id_umkm, nama kelompok, dosen pengampu mata kuliah, dan legenda.
             </p> <br>
             <p>
               Adapun panduan untuk menjalankan map interactive yaitu dengan cara "klik" pada tiap titik-titik merah 
               maka akan muncul atribut tabel dari setiap titik-titik Gerai Kopimi. Atribut tabel tersebut meliputi id, id_umkm, nama_umkm, nomor_pendaftaran, nama_pemilik, bidang_umkm, jenis_produk, alamat, koordinat x, koordinat y, kelurahan, kecamatan, modal, dan omset tiap bulan.
             </p> <br>
             <div class="mapStore">
-              <iframe  style="border: none;" height="650" width="1400" src="http://localhost:8082/mapstore/dashboard-embedded.html#/44"></iframe>
+              <iframe  style="border: none;" height="650" width="1150" src="http://localhost:8082/mapstore/dashboard-embedded.html#/44"></iframe>
             </div>
+            <br>
+            <style type="text/css">
+              table.tableizer-table {
+                font-size: 12px;
+                border: 1px solid #CCC; 
+                font-family: Arial, Helvetica, sans-serif;
+              } 
+              .tableizer-table td {
+                padding: 4px;
+                margin: 3px;
+                border: 1px solid #CCC;
+              }
+              .tableizer-table th {
+                background-color: #104E8B; 
+                color: #FFF;
+                font-weight: bold;
+              }
+            </style>
+            <table class="tableizer-table">
+            <thead><tr class="tableizer-firstrow"><th>id_UMKM</th><th>Nama UMKM</th><th>Bidang UMKM</th><th>Jenis Produk</th><th>Alamat</th><th>Modal</th><th>Omset</th></tr></thead><tbody>
+             <tr><td>1101</td><td>Labri Food</td><td>Kuliner</td><td>Bawang Goreng, Kripik</td><td>Jalan Kramas-Pengaron, Jabungan, Banyumanik, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50266</td><td>8.500.000</td><td>4.000.000</td></tr>
+             <tr><td>1102</td><td>La Nesha Galerie</td><td>Furnitur</td><td>Tempat Tisu, Taplak</td><td>Jl. Mulawarman Bar. II No.42, Pedalangan, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50278</td><td>7.000.000</td><td>3.000.000</td></tr>
+             <tr><td>1103</td><td>Nasi Goreng Mas Bagong</td><td>Kuliner</td><td>Makanan</td><td>Jl. Dendronium No.30, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50278</td><td>9.000.000</td><td>3.000.000</td></tr>
+             <tr><td>1104</td><td>Es Teler Kuzuka</td><td>Kuliner</td><td>Makanan & Minuman Es</td><td>Perumahan Permata Tembalang, Jl. Dendronium No.56, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50278</td><td>16.000.000</td><td>10.000.000</td></tr>
+             <tr><td>1105</td><td>Ternak Ayam Dan Kelinci</td><td>Agribisnis</td><td>Ayam Dan Kelinci</td><td>Perum Tembalang Pesona Asri D-3, Kramas, Tembalang, Semarang City, Central Java</td><td>25.000.000</td><td>8.000.000</td></tr>
+             <tr><td>1106</td><td>Flora Kitchen Catering</td><td>Kuliner</td><td>Makanan</td><td>Jl. Griya Tembalang Sejahtera Blok H10, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50278</td><td>10.000.000</td><td>4.000.000</td></tr>
+             <tr><td>1107</td><td>Aneka Snack & Roti</td><td>Kuliner</td><td>Roti Dan Aneka Cemilan</td><td>Blk. A1 No.3, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50266</td><td>19.500.000</td><td>10.000.000</td></tr>
+             <tr><td>1108</td><td>Sudut Rindu</td><td>Kuliner</td><td>Makanan Dan Minuman</td><td>Jl. Mulawarman Selatan Raya, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50266</td><td>15.000.000</td><td>10.000.000</td></tr>
+             <tr><td>1109</td><td>Nasi Goreng & Bakmi Jawa Pak Kus</td><td>Kuliner</td><td>Makanan</td><td>Tembalang Pesona Asri, Blk. O No.12 -12 A, Kramas, Tembalang, Semarang City, Central Java 50278</td><td>14.000.000</td><td>5.000.000</td></tr>
+             <tr><td>1110</td><td>Wingko Babat"Cap Pohon Kelapa"</td><td>Kuliner</td><td>Wingko, Snack Lainnya</td><td>Tembalang Pesona Asri Blok A-9 RT.001 RW.004, Kramas, Tembalang, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50278</td><td>14.500.000</td><td>6.000.000</td></tr>
+             <tr><td>1111</td><td>Gemah Camil</td><td>Kuliner</td><td>Ceriping, Pisang, Aneka Peyek, Minuman Herbal</td><td>Tembalang Pesona Asri A-15, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50278</td><td>15.000.000</td><td>5.000.000</td></tr>
+             <tr><td>1112</td><td>Umkm Serba Sebi</td><td>Furnitur</td><td>Tupperware</td><td>Jl. Mulawarman Raya, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50267</td><td>11.000.000</td><td>4.000.000</td></tr>
+             <tr><td>1113</td><td>Snack Tiga Putra</td><td>Kuliner</td><td>Makanan</td><td>Jl. Mulawarman Selatan Raya No.18, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50278</td><td>14.500.000</td><td>5.000.000</td></tr>
+             <tr><td>1114</td><td>Maju Lancar</td><td>Kuliner</td><td>Makanan</td><td>Jl. Mulawarman Raya No.46, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50278</td><td>9.000.000</td><td>3.000.000</td></tr>
+             <tr><td>1115</td><td>Aneka Gorengan</td><td>Kuliner</td><td>Mendoan, Tahu Isi, Tahu Petis, Bakwan, Molen </td><td>Jl. Mulawarman Raya No.69, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50278</td><td>14.000.000</td><td>7.000.000</td></tr>
+            </tbody></table>
 
-            
  <!-- info section -->
  <section class="info_section layout_padding2">
   <div class="container">
